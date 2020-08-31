@@ -1,13 +1,7 @@
 <h1 align="center">Hi 👋, I'm Curt</h1>
 <h3 align="center">A domain-independent problem-solver with both SW and ML skills</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=curt-park" alt="curt-park" /> </p>
-
-* 🔭 I have worked across different industries as a software developer and research engineer.
-* 👯 I’m looking to collaborate on any interesting ML project requiring both software and machine learning skills.
-* 📫 How to reach me **www.jwpark.co.kr@gmail.com**
-
-<p align="left">
+<p align="center">
   <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
@@ -23,6 +17,12 @@
   <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
 </p>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=curt-park" alt="curt-park" /> </p>
+
+* 🔭 I have worked across different industries as a software developer and research engineer.
+* 👯 I’m looking to collaborate on any interesting ML project requiring both software and machine learning skills.
+* 📫 How to reach me **www.jwpark.co.kr@gmail.com**
 
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=curt-park&show_icons=true" alt="curt-park" /></p>
 
