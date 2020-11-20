@@ -20,7 +20,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=curt-park" alt="curt-park" /> </p>
 
-* 🔭 I have worked across different industries as a software developer, and as a research engineer.
+* 🔭 I have worked across a number of different industries as a software developer and research engineer.
 * 👯 I’m looking to collaborate on any interesting ML project requiring both software and machine learning skills.
 * 📫 How to reach me **www.jwpark.co.kr@gmail.com**
 
