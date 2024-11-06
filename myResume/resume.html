@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="jinwoo-park">Jinwoo Park</h1>
+<hr />
+<blockquote>
+<p><a href="mailto:www.jwpark.co.kr@gmail.com"
+class="email">www.jwpark.co.kr@gmail.com</a> • <a
+href="https://github.com/curt-park/"
+target="_blank">https://github.com/curt-park/</a> • <a
+href="https://www.linkedin.com/in/curt-park/"
+target="_blank">https://www.linkedin.com/in/curt-park/</a></p>
+</blockquote>
+<hr />
+<h2 id="highlights">Highlights</h2>
+<p>A domain-independent problem-solver with organizational skills and a
+record of delivering work ahead of schedule. Seeking challenges in a
+dynamic environment where innovation and sense of ownership are valued
+and encouraged.</p>
+<pre><code>- Achievements across different domains as a software developer and research engineer.
+- Strong programming skills and theoretical understanding in Machine Learning.
+- Experience with large-scale distributed systems and concurrent programming.
+- Polyglot programming skills in Python, Go, C++, Erlang, and more.</code></pre>
+<h2 id="experience">Experience</h2>
+<dl>
+<dt>Aug. 2023 -</dt>
+<dd>
+<p><strong>ML Engineer</strong>; SNOW Corporation (Seongnam)</p>
+<ul>
+<li>Text-to-image personalization</li>
+<li>Model serving system optimization for cost reduction (SNOW,
+EPIK)</li>
+<li>Service infrastructure migration to Kubernetes</li>
+<li>Developed internal service infrastructure and functionalities for
+creators’ work efficiency</li>
+</ul>
+<p>Skills: <em>Computer Vision, Python, Docker, Kubernetes, PyTorch,
+Git</em></p>
+</dd>
+<dt>Jan. 2022 - Jul. 2023</dt>
+<dd>
+<p><strong>ML Team Lead (Team Initiator)</strong>; Annotation-AI
+(Seoul)</p>
+<ul>
+<li>Implemented state-of-the-art computer vision models.</li>
+<li>Designed distributed job scheduling system for MLOps product.</li>
+<li>Designed and implemented high-performance inference service with
+zero-downtime, continuous delivery, auto-scaling, and monitoring.</li>
+</ul>
+<p>Skills: <em>Computer Vision, Python, Golang, Docker, Kubernetes,
+PyTorch, Git</em></p>
+</dd>
+<dt>Oct. 2020 - Jan. 2022</dt>
+<dd>
+<p><strong>ML Project Lead (Team Initiator)</strong>; MakinaRocks
+(Seoul)</p>
+<ul>
+<li>Focused on industrial applications of combinatorial optimization
+problems.</li>
+<li>FPGA/ASIC macro placement with Distributed Reinforcement
+Learning.</li>
+<li>Agile Coach for teams.</li>
+</ul>
+<p>Skills: <em>Reinforcement Learning, Python, Docker, PyTorch,
+Git</em></p>
+</dd>
+<dt>Sep. 2019 - Oct. 2020</dt>
+<dd>
+<p><strong>ML Research Engineer</strong>; J.MARPLE (Seoul)</p>
+<ul>
+<li>Researched model predictive control methods for nonlinear dynamical
+systems.</li>
+<li>Developed data-driven active learning methods for dynamic
+environments.</li>
+<li>Implemented deep learning model compression methods for embedded
+systems.</li>
+</ul>
+<p>Skills: <em>Model Predictive Control, PID, Model Compression, Python,
+Docker, PyTorch, Git</em></p>
+</dd>
+<dt>Nov. 2018 - Aug. 2019</dt>
+<dd>
+<p><strong>ML Research Engineer</strong>; Medipixel (Seoul)</p>
+<ul>
+<li>Key contributor to guide-wire control automation for PCI
+project.</li>
+<li>Implemented off-policy learning and behavior cloning methods.</li>
+<li>Introduced test automation systems and agile methodologies for
+teams.</li>
+</ul>
+<p>Skills: <em>Reinforcement Learning, Python, Docker, PyTorch,
+Git</em></p>
+</dd>
+<dt>Oct. 2014 - Jan. 2017</dt>
+<dd>
+<p><strong>SW Developer</strong>; Ericsson (Anyang)</p>
+<ul>
+<li>Developed LTE RBS L3 features: Mobility, Load Balancing, etc.</li>
+<li>Test automation for unit and integration testing.</li>
+<li>World-class CI/CD experience.</li>
+</ul>
+<p>Skills: <em>C/C++, Erlang, Git, Gerrit</em></p>
+</dd>
+<dt>Nov. 2013 - May. 2014</dt>
+<dd>
+<p><strong>SW Developer</strong>; Smilegate (Seongnam)</p>
+<ul>
+<li>Developed in-house TCP/IP socket server testing tool.</li>
+<li>Worked on distributed system development for large-scale server
+monitoring and control.</li>
+</ul>
+<p>Skills: <em>C++, IOCP, MFC</em></p>
+</dd>
+</dl>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2006 - 2014</dt>
+<dd>
+<p><strong>Bachelor’s Degree, Computer Science</strong>; Dongguk
+University (Seoul)</p>
+<ul>
+<li>Teaching assistant in Data Structure class</li>
+<li>Research assistant in Visual Simulation laboratory</li>
+<li>Honors student for several semesters</li>
+<li>Have taken many classes regarding Mathematics and Computer
+Science</li>
+</ul>
+</dd>
+</dl>
+<h2 id="opensource">OpenSource</h2>
+<p>Contiributed PyTorch, Huggingface, BentoML, KServe, GoCV, PyG, and
+more</p>
+<dl>
+<dt>2023 -</dt>
+<dd>
+<a href="https://github.com/Curt-Park/serving-codegen-gptj-triton"
+target="_blank"><strong>serving-codegen-gptj-triton</strong></a> (★20);
+Serving Example of CodeGen-350M-Mono-GPTJ on Triton Inference Server
+with Docker and Kubernetes
+</dd>
+<dt>2023 -</dt>
+<dd>
+<a href="https://github.com/Curt-Park/segment-anything-with-clip"
+target="_blank"><strong>segment-anything-with-clip</strong></a> (★331);
+Segment Anything combined with CLIP
+</dd>
+<dt>2019 -</dt>
+<dd>
+<a href="https://github.com/j-marple-dev/model_compression"
+target="_blank"><strong>model_compression</strong></a> (★230); Deep
+Neural Network Compression algorithms in PyTorch
+</dd>
+<dt>2019 -</dt>
+<dd>
+<a href="https://github.com/Curt-Park/rainbow-is-all-you-need"
+target="_blank"><strong>rainbow-is-all-you-need</strong></a> (★1.9k); A
+step-by-step tutorial from DQN to Rainbow.
+</dd>
+<dt>2019 -</dt>
+<dd>
+<a href="https://github.com/MrSyee/pg-is-all-you-need"
+target="_blank"><strong>pg-is-all-you-need</strong></a> (★860); A
+step-by-step tutorial for well-known PG methods.
+</dd>
+<dt>2018 -</dt>
+<dd>
+<a href="https://github.com/medipixel/rl_algorithms"
+target="_blank"><strong>rl_algorithms</strong></a> (★510); Structural
+implementation of RL key algorithms
+</dd>
+</dl>
+<h2 id="publications">Publications</h2>
+<dl>
+<dt>Dec. 2021</dt>
+<dd>
+<p><strong>Deep Reinforcement Learning for Guidewire Navigation in
+Coronary Artery Phantom</strong>; IEEE Access</p>
+<p>Jihoon Kweon; Kyunghwan Kim; Chaehyuk Lee; Hwi Kwon; Jinwoo Park;
+Kyoseok Song https://ieeexplore.ieee.org/document/9648308</p>
+</dd>
+</dl>
+<h2 id="patents">Patents</h2>
+<dl>
+<dt>Dec. 2022</dt>
+<dd>
+<p><strong>[1] 인공지능 기반의 반도체 설계 자동화 방법 METHOD FOR
+AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL
+INTELLIGENCE</strong>; 1024748560000</p>
+<p>Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo</p>
+</dd>
+<dt>Jul. 2022</dt>
+<dd>
+<p><strong>[2] 인공지능 기반의 반도체 설계 자동화 방법 METHOD FOR
+AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL
+INTELLIGENCE</strong>; 1024200710000</p>
+<p>Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo</p>
+</dd>
+</dl>
+<h2 id="extra-activities">Extra Activities</h2>
+<dl>
+<dt>Jan. 2022</dt>
+<dd>
+<strong>MODUCON 22</strong>; 나의 애자일 개발 문화 도입기: 스타트업을
+여행하는 히치하이커를 위한 안내서 <a href="https://youtu.be/J4kyBPHWMXs"
+target="_blank">https://youtu.be/J4kyBPHWMXs</a>
+</dd>
+<dt>Dec. 2021</dt>
+<dd>
+<strong>DEVIEW 21 by Naver</strong>; 강화학습, 산업의 난제에 도전하다!:
+ASIC 반도체 설계(Floorplan) 자동화 <a
+href="https://deview.kr/2021/sessions/480"
+target="_blank">https://deview.kr/2021/sessions/480</a>
+</dd>
+<dt>Sep. 2021</dt>
+<dd>
+<strong>강화학습의 수학적 기초와 알고리듬 이해 (K-MOOC) - 전문가
+사례소개</strong>
+</dd>
+<dt>Aug. 2020</dt>
+<dd>
+<strong>AI Grand Challenge 20</strong>; Won first prize at Model
+Compression Track (200,000,000 Won)
+</dd>
+<dt>Nov. 2018</dt>
+<dd>
+<strong>모두를 위한 컨벡스 최적화 E-book</strong> published; <a
+href="https://convex-optimization-for-all.github.io/"
+target="_blank">https://convex-optimization-for-all.github.io/</a>
+</dd>
+</dl>
+<hr />
+</body>
+</html>
