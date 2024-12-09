@@ -17,7 +17,6 @@ Highlights
 - **Architect of Robust, Scalable Systems**: Extensive experience in building distributed systems that meet enterprise-level demands, leveraging Kubernetes, Docker, and CI/CD for seamless scaling, zero-downtime, and reliable system performance.
 - **Consistent and Dedicated Contributor to Open-Source Communities**: Regularly contribute to projects that advance the AI and ML fields, including widely used libraries like PyTorch and Huggingface.
 
-
 Experience
 ----------
 
@@ -63,7 +62,6 @@ Nov. 2013 -<br> May. 2014
     - Roles: TCP/IP server testing tool development, distributed system development.
     - Skills: C++, IOCP, MFC
 
-
 Education
 ---------
 
@@ -74,6 +72,7 @@ Education
 
 OpenSource
 --------------------
+
 - Contributions to PyTorch, Huggingface, BentoML, KServe, GoCV, PyG, etc.
 - Key Projects:
   - **[rainbow-is-all-you-need](https://github.com/Curt-Park/rainbow-is-all-you-need) ★ 1.9k** – A comprehensive tutorial on reinforcement learning, guiding users from DQN to advanced techniques in Rainbow, widely used by practitioners and learners.
@@ -83,17 +82,17 @@ OpenSource
   - **[model_compression](https://github.com/j-marple-dev/model_compression) ★ 230** – Provides algorithms for deep learning model compression in PyTorch, optimized for embedded systems.
   - Additional contributions include tools like **[serving-codegen-gptj-triton](https://github.com/Curt-Park/serving-codegen-gptj-triton)** and **[comfyui-onprem-k8s](https://github.com/Curt-Park/comfyui-onprem-k8s)**, both supporting efficient model serving and on-premise deployment.
 
-
 Publications
 --------------------
+
 Dec. 2021
 :   "**Deep Reinforcement Learning for Guidewire Navigation in Coronary Artery Phantom**" published in [IEEE Access](https://ieeexplore.ieee.org/document/9648308)
 
     Jihoon Kweon; Kyunghwan Kim; Chaehyuk Lee; Hwi Kwon; Jinwoo Park; Kyoseok Song
 
-
 Patents
 --------------------
+
 Dec. 2022
 :   **[1] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024748560000
 
@@ -103,22 +102,3 @@ Jul. 2022
 :   **[2] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024200710000
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
-
-Extra Activities
---------------------
-Jan. 2022
-:   **MODUCON 22**; 나의 애자일 개발 문화 도입기: 스타트업을 여행하는 히치하이커를 위한 안내서
-
-Dec. 2021
-:   **DEVIEW 21**; 강화학습, 산업의 난제에 도전하다!: ASIC 반도체 설계(Floorplan) 자동화
-
-Sep. 2021
-:   **K-MOOC**; 강화학습의 수학적 기초와 알고리듬 이해 - 전문가 사례소개
-
-Aug. 2020
-:   **AI Grand Challenge 20**; Won first prize at Model Compression Track (200,000,000 Won)
-
-Nov. 2018
-:   **Convex Optimization for All E-book** published
-
-----
