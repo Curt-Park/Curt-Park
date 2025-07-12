@@ -3,64 +3,73 @@ Jinwoo Park
 
 ----
 
-> [https://github.com/curt-park/](https://github.com/curt-park/) •
-> [https://www.linkedin.com/in/curt-park/](https://www.linkedin.com/in/curt-park/) •
-> <www.jwpark.co.kr@gmail.com>
+- GitHub: [https://github.com/curt-park/](https://github.com/curt-park/)
+- LinkedIn: [https://www.linkedin.com/in/curt-park/](https://www.linkedin.com/in/curt-park/)
+- Email: <www.jwpark.co.kr@gmail.com>
 
 ----
 
-Highlights
+Professional Summary
 ----------
 
-- **Client-Centric, Domain-Independent Problem Solver**: Skilled in working closely with clients to understand complex challenges and translate needs into actionable technical solutions, ensuring alignment with business objectives across diverse industries.
-- **Cross-Functional Technical Leadership**: Demonstrated success in coordinating with cross-functional teams to implement ML solutions that align with organizational goals, particularly in cost management, resource scaling, and end-to-end system integration.
-- **Architect of Robust, Scalable Systems**: Extensive experience in building distributed systems that meet enterprise-level demands, leveraging Kubernetes, Docker, and CI/CD for seamless scaling, zero-downtime, and reliable system performance.
-- **Consistent and Dedicated Contributor to Open-Source Communities**: Regularly contribute to projects that advance the AI and ML fields, including widely used libraries like PyTorch and Huggingface.
+Machine Learning Engineer and Software Developer with a proven record of delivering scalable AI solutions and robust backend systems for global services. Expert in designing and deploying advanced ML frameworks, model serving infrastructure, and distributed systems—driving measurable business impact and leading the full lifecycle of data-driven products. Passionate open-source contributor recognized for launching high-growth AI products and bridging research with real-world applications.
 
-Experience
+Skills
+----------
+- **Programming:** Python, Golang, C/C++, Erlang
+- **Machine Learning Frameworks:** PyTorch, Diffusers, ComfyUI, Kohya
+- **Backend**: Traefik, Authentik, FastAPI, Echo
+- **Model Serving Frameworks**: Triton Inference Server, BentoML
+- **Testing & Monitoring**: Locust, Prometheus, Grafana, Promtail, Loki
+- **Infrastructure & DevOps**: Docker, Kubernetes (k8s), K3S, Helm, ArgoCD, Harbor
+
+ML Engineer Experience
 ----------
 
-Aug. 2023 -<br> present
-:   **ML Engineer**; SNOW Corporation (Seongnam)
+Aug 2023 -<br> present
+:   SNOW Corporation (Seongnam)
 
-    - Roles: Text-to-image personalization for productions, system optimization for cost reduction, service migration to k8s, and internal service development.
-    - Skills: Computer Vision, Python, Docker, Kubernetes, PyTorch, ComfyUI, Git
+    - Launched “ID Photo” service with upgraded text-to-image personalization method, achieving a 440% increase in purchases over the previous product (AI Business Profile).
+    - Built a Kubernetes-based GPU cluster, enabling non-engineers to develop content with minimal engineering effort.
+    - Researched and developed core technologies for image edits, significantly improving output quality while reducing inference time to one-tenth of the previous solution.
 
-Jan. 2022 -<br> Jul. 2023
-:   **ML Team Lead (Team Initiator)**; Annotation-AI (Seoul)
+Jan 2022 -<br> Jul 2023
+:   Annotation-AI (Seoul)
 
-    - Roles: Computer vision model implementation, MLOps product design, high-performance inference service.
-    - Skills: Computer Vision, Python, Golang, Docker, Kubernetes, PyTorch, Git
+    - Optimized Segment Anything inference by 80% (from 1024 to 200 calls), enabling real-time operation on CPUs.
+    - Designed and deployed model serving and CI/CD systems.
 
-Oct. 2020 -<br> Jan. 2022
-:   **ML Project Lead (Team Initiator)**; MakinaRocks (Seoul)
+Oct 2020 -<br> Jan 2022
+:   MakinaRocks (Seoul)
 
-    - Roles: Industrial combinatorial optimization, FPGA/ASIC placement with Distributed Reinforcement Learning.
-    - Skills: Reinforcement Learning, Python, Docker, PyTorch, Git
+    - Led GNN/RL-based FPGA/ASIC placement optimization, achieved performance (WNS +0.7%) on par with ICC2AutoPlacement and HumanPlacement for a single-core CPU design with 18 macros and 120,000 cells and nets. (presented at Deview 2021)
 
-Sep. 2019 -<br> Oct. 2020
-:   **ML Research Engineer**; J.MARPLE (Seoul)
+Sep 2019 -<br> Oct 2020
+:   J.MARPLE (Seoul)
 
-    - Roles: Model predictive control research, active learning, model compression for embedded systems.
-    - Skills: Model Predictive Control, PID, Model Compression, Python, Docker, PyTorch, Git
+    - Researched and developed model compression and model predictive control methods for non-linear dynamical systems.
+    - Secured 1st place in the model compression track of the AI Grand Challenge 2020, winning a prize of 200 million KRW.
 
-Nov. 2018 -<br> Aug. 2019
-:   **ML Research Engineer**; Medipixel (Seoul)
+Nov 2018 -<br> Aug 2019
+:   Medipixel (Seoul)
 
-    - Roles: Guide-wire control automation, off-policy learning, team methodologies.
-    - Skills: Reinforcement Learning, Python, Docker, PyTorch, Git
+    - Led the guide-wire control automation project for PCI (Percutaneous Coronary Intervention), developing and applying off-policy reinforcement learning and behavior cloning algorithms.
+    - Self-developed Rainbow IQN RL algorithm, achieving SOTA performance and open-sourced. (GitHub: medipixel/rl_algorithm)
 
-Oct. 2014 -<br> Jan. 2017
-:   **SW Developer**; Ericsson (Anyang)
+SW Developer Experience
+----------
 
-    - Roles: LTE RBS L3 feature development, test automation.
-    - Skills: C/C++, Erlang, Git, Gerrit
+Oct 2014 -<br> Jan 2017
+:   Ericsson (Anyang)
 
-Nov. 2013 -<br> May. 2014
-:   **SW Developer**; Smilegate (Seongnam)
+    - Developed and tested LTE RBS L3 features such as Mobility and Load Balancing.
+    - Improved memory usage by over 20% through enhancements in UE Context reference methods in L3.
+    - Recognized as a specialist in L3 test automation at the Korea R&D center and gained experience with world-class CI/CD and collaboration systems.
 
-    - Roles: TCP/IP server testing tool development, distributed system development.
-    - Skills: C++, IOCP, MFC
+Nov 2013 -<br> May 2014
+:   Smilegate (Seongnam)
+
+    - Developed distributed load testing tool, enabling rapid incident response for global services.
 
 Education
 ---------
@@ -73,14 +82,20 @@ Education
 OpenSource
 --------------------
 
-- Contributions to PyTorch, Huggingface, BentoML, KServe, GoCV, PyG, etc.
-- Key Projects:
-  - **[rainbow-is-all-you-need](https://github.com/Curt-Park/rainbow-is-all-you-need) ★ 1.9k** – A comprehensive tutorial on reinforcement learning, guiding users from DQN to advanced techniques in Rainbow, widely used by practitioners and learners.
-  - **[pg-is-all-you-need](https://github.com/MrSyee/pg-is-all-you-need) ★ 860** – A detailed, accessible guide to Policy Gradient methods, supporting learning and experimentation within the AI community.
-  - **[rl_algorithms](https://github.com/medipixel/rl_algorithms) ★ 510** – Structural implementations of key reinforcement learning algorithms, helping teams integrate RL into real-world applications.
-  - **[segment-anything-with-clip](https://github.com/Curt-Park/segment-anything-with-clip) ★ 331** – An advanced resource combining segmentation with CLIP, offering practitioners versatile segmentation tools.
-  - **[model_compression](https://github.com/j-marple-dev/model_compression) ★ 230** – Provides algorithms for deep learning model compression in PyTorch, optimized for embedded systems.
-  - Additional contributions include tools like **[serving-codegen-gptj-triton](https://github.com/Curt-Park/serving-codegen-gptj-triton)** and **[comfyui-onprem-k8s](https://github.com/Curt-Park/comfyui-onprem-k8s)**, both supporting efficient model serving and on-premise deployment.
+Active contributor and creator of widely adopted open-source projects in reinforcement learning, model serving, and computer vision.
+
+  - **[rainbow-is-all-you-need](https://github.com/Curt-Park/rainbow-is-all-you-need) ★1.9k+** 
+  Creator; comprehensive RL tutorial, adopted by practitioners and educators globally.
+  - **[pg-is-all-you-need](https://github.com/MrSyee/pg-is-all-you-need) ★900+**
+  Co-creator; accessible guide to Policy Gradient methods, referenced in academic courses.
+  - **[rl_algorithms](https://github.com/medipixel/rl_algorithms) ★500+**
+  Lead developer; implemented self-developed Rainbow IQN, achieving SOTA results and community recognition.
+  - **[segment-anything-with-clip](https://github.com/Curt-Park/segment-anything-with-clip) ★300+**
+  Creator; an advanced resource combining segmentation with CLIP, offering practitioners versatile segmentation tools.
+  - **[model_compression](https://github.com/j-marple-dev/model_compression) ★200+**
+  Contributor; efficient model compression algorithms for embedded systems.
+
+Additional Contributions: PyTorch, Huggingface, BentoML, KServe, GoCV, PyG, and more.
 
 Publications
 --------------------
@@ -90,6 +105,8 @@ Dec. 2021
 
     Jihoon Kweon; Kyunghwan Kim; Chaehyuk Lee; Hwi Kwon; Jinwoo Park; Kyoseok Song
 
+    - Proposed and validated a deep reinforcement learning approach for autonomous guidewire navigation in coronary artery models, demonstrating improved precision and safety for medical robotics applications.
+
 Patents
 --------------------
 
@@ -98,7 +115,11 @@ Dec. 2022
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
 
+    - Invented an AI-driven method to automate and optimize semiconductor design processes, enhancing design efficiency and reducing manual intervention.
+
 Jul. 2022
 :   **[2] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024200710000
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
+
+    - Developed a novel artificial intelligence solution for automating key stages in semiconductor design, enabling faster and more reliable chip development.
