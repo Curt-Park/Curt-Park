@@ -27,31 +27,31 @@ ML Engineer Experience
 ----------
 
 Aug 2023 -<br> present
-:   SNOW Corporation (Seongnam)
+:   **SNOW Corporation (Seongnam)**
 
     - Launched “ID Photo” service with upgraded text-to-image personalization method, achieving a 440% increase in purchases over the previous product (AI Business Profile).
     - Built a Kubernetes-based GPU cluster, enabling non-engineers to develop content with minimal engineering effort.
     - Researched and developed core technologies for image edits, significantly improving output quality while reducing inference time to one-tenth of the previous solution.
 
 Jan 2022 -<br> Jul 2023
-:   Annotation-AI (Seoul)
+:   **Annotation-AI (Seoul)**
 
     - Optimized Segment Anything inference by 80% (from 1024 to 200 calls), enabling real-time operation on CPUs.
     - Designed and deployed model serving and CI/CD systems.
 
 Oct 2020 -<br> Jan 2022
-:   MakinaRocks (Seoul)
+:   **MakinaRocks (Seoul)**
 
     - Led GNN/RL-based FPGA/ASIC placement optimization, achieved performance (WNS +0.7%) on par with ICC2AutoPlacement and HumanPlacement for a single-core CPU design with 18 macros and 120,000 cells and nets. (presented at Deview 2021)
 
 Sep 2019 -<br> Oct 2020
-:   J.MARPLE (Seoul)
+:   **J.MARPLE (Seoul)**
 
     - Researched and developed model compression and model predictive control methods for non-linear dynamical systems.
     - Secured 1st place in the model compression track of the AI Grand Challenge 2020, winning a prize of 200 million KRW.
 
 Nov 2018 -<br> Aug 2019
-:   Medipixel (Seoul)
+:   **Medipixel (Seoul)**
 
     - Led the guide-wire control automation project for PCI (Percutaneous Coronary Intervention), developing and applying off-policy reinforcement learning and behavior cloning algorithms.
     - Self-developed Rainbow IQN RL algorithm, achieving SOTA performance and open-sourced. (GitHub: medipixel/rl_algorithm)
@@ -60,14 +60,14 @@ SW Developer Experience
 ----------
 
 Oct 2014 -<br> Jan 2017
-:   Ericsson (Anyang)
+:   **Ericsson (Anyang)**
 
     - Developed and tested LTE RBS L3 features such as Mobility and Load Balancing.
     - Improved memory usage by over 20% through enhancements in UE Context reference methods in L3.
     - Recognized as a specialist in L3 test automation at the Korea R&D center and gained experience with world-class CI/CD and collaboration systems.
 
 Nov 2013 -<br> May 2014
-:   Smilegate (Seongnam)
+:   **Smilegate (Seongnam)**
 
     - Developed distributed load testing tool, enabling rapid incident response for global services.
 
@@ -100,8 +100,8 @@ Additional Contributions: PyTorch, Huggingface, BentoML, KServe, GoCV, PyG, and 
 Publications
 --------------------
 
-Dec. 2021
-:   "**Deep Reinforcement Learning for Guidewire Navigation in Coronary Artery Phantom**" published in [IEEE Access](https://ieeexplore.ieee.org/document/9648308)
+Dec 2021
+:   **Deep Reinforcement Learning for Guidewire Navigation in Coronary Artery Phantom**; [IEEE Access](https://ieeexplore.ieee.org/document/9648308)
 
     Jihoon Kweon; Kyunghwan Kim; Chaehyuk Lee; Hwi Kwon; Jinwoo Park; Kyoseok Song
 
@@ -110,14 +110,14 @@ Dec. 2021
 Patents
 --------------------
 
-Dec. 2022
+Dec 2022
 :   **[1] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024748560000
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
 
     - Invented an AI-driven method to automate and optimize semiconductor design processes, enhancing design efficiency and reducing manual intervention.
 
-Jul. 2022
+Jul 2022
 :   **[2] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024200710000
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
