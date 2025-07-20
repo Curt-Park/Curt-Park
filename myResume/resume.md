@@ -12,46 +12,49 @@ Jinwoo Park
 Professional Summary
 ----------
 
-Machine Learning Engineer and Software Developer with a proven record of delivering scalable AI solutions and robust backend systems for global services. Expert in designing and deploying advanced ML frameworks, model serving infrastructure, and distributed systems—driving measurable business impact and leading the full lifecycle of data-driven products. Passionate open-source contributor recognized for launching high-growth AI products and bridging research with real-world applications.
+Machine Learning Engineer & Technical Lead with a record of driving measurable business impact, including 440% sales growth through AI-powered services at SNOW. Skilled in designing generative AI solutions for image synthesis/personalization/editing, reinforcement learning, and real-time model deployment. Experienced in leading cross-functional teams, architecting scalable infrastructure, and mentoring engineers. Recognized for open-source leadership and bridging research with industry needs.
 
 Skills
 ----------
 - **Programming:** Python, Golang, C/C++, Erlang
-- **Machine Learning Frameworks:** PyTorch, Diffusers, ComfyUI, Kohya
+- **Generative AI (Image):** Stable Diffusion, LoRA, DreamBooth, Textual Inversion, Instruction-based Image Editing
+- **Deep Learning Techniques:** Model Compression (Quantization, Pruning, Knowledge Distillation), GNN, Reinforcement Learning (Rainbow, PPO, SAC)
+- **Deep Learning Frameworks:** PyTorch, Diffusers, ComfyUI, Kohya
+- **Model Deployment**: Triton Inference Server, BentoML, KServe
 - **Backend**: Traefik, Authentik, FastAPI, Echo
-- **Model Serving Frameworks**: Triton Inference Server, BentoML
-- **Testing & Monitoring**: Locust, Prometheus, Grafana, Promtail, Loki
+- **Test & Monitoring**: Locust, Prometheus, Grafana, Loki, Promtail
 - **Infrastructure & DevOps**: Docker, Kubernetes (k8s), K3S, Helm, ArgoCD, Harbor
 
 ML Engineer Experience
 ----------
 
 Aug 2023 -<br> present
-:   **SNOW Corporation (Seongnam)**
+:   **SNOW Corporation (Seongnam) - Project Lead, ML Engineer**
 
-    - Launched “ID Photo” service with upgraded text-to-image personalization method, achieving a 440% increase in purchases over the previous product (AI Business Profile).
-    - Built a Kubernetes-based GPU cluster, enabling non-engineers to develop content with minimal engineering effort.
-    - Researched and developed core technologies for image edits, significantly improving output quality while reducing inference time to one-tenth of the previous solution.
+    - Directed a team of ML engineers to launch the “ID Photo” service, leveraging advanced text-to-image personalization and driving a 440% increase in purchases compared to the previous product (AI Business Profile).
+    - Architected and deployed a Kubernetes-based GPU cluster that reduced content development barriers for cross-functional teams.
+    - Developed and implemented generative AI pipelines for image editing, boosting output quality and decreasing inference latency by 90%.
 
 Jan 2022 -<br> Jul 2023
-:   **Annotation-AI (Seoul)**
+:   **Annotation-AI (Seoul) - Tech Lead, ML Engineer**
 
-    - Optimized Segment Anything inference by 80% (from 1024 to 200 calls), enabling real-time operation on CPUs.
-    - Designed and deployed model serving and CI/CD systems.
+    - Served as technical lead, mentoring team members and owning the deployment pipeline for real-time image segmentation.
+    - Optimized Segment Anything's Everything inference by 80% (from 1024 to 200 calls), enabling real-time operation on CPUs.
+    - Designed and deployed model serving and CI/CD systems on a k3s cluster.
 
 Oct 2020 -<br> Jan 2022
-:   **MakinaRocks (Seoul)**
+:   **MakinaRocks (Seoul) - Project Owner, ML Engineer**
 
-    - Led GNN/RL-based FPGA/ASIC placement optimization, achieved performance (WNS +0.7%) on par with ICC2AutoPlacement and HumanPlacement for a single-core CPU design with 18 macros and 120,000 cells and nets. (presented at Deview 2021)
+    - Led a GNN/RL-based FPGA/ASIC placement optimization project, achieved performance (WNS +0.7%) on par with ICC2AutoPlacement and HumanPlacement for a single-core CPU design with 18 macros and 120,000 cells and nets. (presented at Deview 2021)
 
 Sep 2019 -<br> Oct 2020
-:   **J.MARPLE (Seoul)**
+:   **J.MARPLE (Seoul) - Project Lead, ML Engineer**
 
     - Researched and developed model compression and model predictive control methods for non-linear dynamical systems.
     - Secured 1st place in the model compression track of the AI Grand Challenge 2020, winning a prize of 200 million KRW.
 
 Nov 2018 -<br> Aug 2019
-:   **Medipixel (Seoul)**
+:   **Medipixel (Seoul) - ML Engineer**
 
     - Led the guide-wire control automation project for PCI (Percutaneous Coronary Intervention), developing and applying off-policy reinforcement learning and behavior cloning algorithms.
     - Self-developed Rainbow IQN RL algorithm, achieving SOTA performance and open-sourced. (GitHub: medipixel/rl_algorithm)
@@ -63,7 +66,7 @@ Oct 2014 -<br> Jan 2017
 :   **Ericsson (Anyang)**
 
     - Developed and tested LTE RBS L3 features such as Mobility and Load Balancing.
-    - Improved memory usage by over 20% through enhancements in UE Context reference methods in L3.
+    - Improved memory usage by over 20% through enhancements in User Equipment Context in L3.
     - Recognized as a specialist in L3 test automation at the Korea R&D center and gained experience with world-class CI/CD and collaboration systems.
 
 Nov 2013 -<br> May 2014
