@@ -12,12 +12,61 @@ Jinwoo Park
 Professional Summary
 ----------
 
-Machine Learning Engineer & Technical Lead with a record of driving measurable business impact, including 440% sales growth through AI-powered services at SNOW. Skilled in designing generative AI solutions for image synthesis/personalization/editing, reinforcement learning, and real-time model deployment. Experienced in leading cross-functional teams, architecting scalable infrastructure, and mentoring engineers. Recognized for open-source leadership and bridging research with industry needs.
+Experienced Machine Learning Engineer & Technical Lead with a proven record of delivering scalable AI solutions and building high-performing engineering teams. Demonstrated success driving business growth (440% sales increase), leading open-source initiatives (4.5k+ stars), and mentoring engineers through all stages of ML product development. Skilled at turning research into robust, production-ready systems and uniting engineers around ambitious goals in dynamic environments.
 
-Skills
+Machine Learning Engineering Experience
+----------
+
+Aug 2023 -<br> present
+:   **ML Engineer & Project Lead** at **SNOW Corporation** (Seongnam)
+
+    - Led the launch of “ID Photo” with advanced text-to-image personalization, achieving 440% purchase growth.
+    - Architected and deployed a Kubernetes-based GPU cluster that accelerated ML development and deployment for cross-functional teams.
+    - Developed and deployed generative AI pipelines for personalization and image editing, reducing inference latency by 85%.
+
+Nov 2018 -<br> Jul 2023
+:   **ML Engineer / Tech Lead - Startup Track** at **Medipixel, J.Marple, MakinaRocks, Annotation-AI** (Seoul)
+    _(Medipixel: Nov 2018–Aug 2019, J.Marple: Sep 2019–Oct 2020, MakinaRocks: Oct 2020–Jan 2022, Annotation-AI: Jan 2022–Jul 2023)_
+
+    - Led end-to-end AI service delivery in medical robotics, semiconductor, and manufacturing; managed projects from concept to deployment across four high-growth startups.
+    - Improved real-time image segmentation throughput by 80% at Annotation-AI (optimized Segment Anything from 1024 to 200 calls on CPU).
+    - Led a GNN/RL-based FPGA/ASIC placement optimization project at MakinaRocks, achieving +0.7% WNS improvement compared to industry and human benchmarks (presented at Deview 2021).
+    - Secured 1st place and a KRW 200 million award in the AI Grand Challenge 2020 (Model Compression Track) at J.Marple.
+    - Developed, open-sourced, and maintained SOTA RL algorithms (e.g., Rainbow IQN) with 500+ GitHub stars at Medipixel.
+    - Designed and operated robust ML/AI serving infrastructure in Kubernetes/K3S; implemented GPU scheduling, scalable backend APIs in FastAPI/Golang, and established distributed system management and comprehensive monitoring.
+    - Mentored engineering teams and presented at major tech conferences.
+
+Software Development Experience
+----------
+
+Nov 2013 -<br> Jan 2017
+:   **Software Developer** at **Ericsson (2014–2017), Smilegate (2013–2014)** (Seoul/Anyang)
+
+    - Developed LTE RBS Layer-3 features; specialized in automation and distributed test systems.
+    - Improved network performance and scalability; led memory optimization with over 20% usage reduction.
+
+Open Source & Research
+--------------------
+
+  - **[Rainbow RL Tutorial](https://github.com/Curt-Park/rainbow-is-all-you-need)** (Creator): **1.9k+ stars** - Hands-on RL education resource
+  - **[PG RL Tutorial](https://github.com/MrSyee/pg-is-all-you-need)** (Co-creator): **900+ stars** - Policy Gradient methods for practitioners
+  - **[Segment-Anything with CLIP](https://github.com/Curt-Park/segment-anything-with-clip)** (Creator): **300+ stars** - Advanced vision demo toolkit
+  - **[RL Algorithms](https://github.com/medipixel/rl_algorithms)** (Lead developer): **500+ stars** - SOTA RL algorithms, open-sourced
+  - **[Model Compression](https://github.com/j-marple-dev/model_compression)** (Creator): **200+ stars** - Efficient model optimization
+  - **Publications**: IEEE Access (2021) – Deep RL in medical robotics ([9648308](https://ieeexplore.ieee.org/document/9648308))
+  - **2 patents**: AI-based semiconductor design automation ([1024748560000](https://doi.org/10.8080/1020210159380), [1024200710000](https://doi.org/10.8080/1020210159381))
+
+Additional
+--------------------
+
+  - **Active Open Source Contributor**: PyTorch, Huggingface, BentoML, KServe, PyG, GoCV, etc.
+  - **English/Korean Bilingual** — ready for cross-functional, global environments.
+
+
+Core Skills
 ----------
 - **Programming:** Python, Golang, C/C++, Erlang
-- **Generative AI (Image):** Stable Diffusion, LoRA, DreamBooth, Textual Inversion, Instruction-based Image Editing
+- **Generative AI (Image):** Diffusion Models, Personalization, Inversion, Instruction-based Image Editing
 - **Deep Learning Techniques:** Model Compression (Quantization, Pruning, Knowledge Distillation), GNN, Reinforcement Learning (Rainbow, PPO, SAC)
 - **Deep Learning Frameworks:** PyTorch, Diffusers, ComfyUI, Kohya
 - **Model Deployment**: Triton Inference Server, BentoML, KServe
@@ -25,104 +74,10 @@ Skills
 - **Test & Monitoring**: Locust, Prometheus, Grafana, Loki, Promtail
 - **Infrastructure & DevOps**: Docker, Kubernetes (k8s), K3S, Helm, ArgoCD, Harbor
 
-ML Engineer Experience (From 2018)
-----------
-
-Aug 2023 -<br> present
-:   **SNOW Corporation (Seongnam) - Project Lead, ML Engineer**
-
-    - Directed a team of ML engineers to launch the “ID Photo” service, leveraging advanced text-to-image personalization and driving a 440% increase in purchases compared to the previous product (AI Business Profile).
-    - Architected and deployed a Kubernetes-based GPU cluster that reduced content development barriers for cross-functional teams.
-    - Developed and implemented generative AI pipelines for image editing, boosting output quality and decreasing inference latency by 90%.
-
-Jan 2022 -<br> Jul 2023
-:   **Annotation-AI (Seoul) - Tech Lead, ML Engineer**
-
-    - Served as technical lead, mentoring team members and owning the deployment pipeline for real-time image segmentation.
-    - Optimized Segment Anything's Everything inference by 80% (from 1024 to 200 calls), enabling real-time operation on CPUs.
-    - Designed and deployed model serving and CI/CD systems on a k3s cluster.
-
-Oct 2020 -<br> Jan 2022
-:   **MakinaRocks (Seoul) - Project Owner, ML Engineer**
-
-    - Led a GNN/RL-based FPGA/ASIC placement optimization project, achieved performance (WNS +0.7%) on par with ICC2AutoPlacement and HumanPlacement for a single-core CPU design with 18 macros and 120,000 cells and nets. (presented at Deview 2021)
-
-Sep 2019 -<br> Oct 2020
-:   **J.MARPLE (Seoul) - Project Lead, ML Engineer**
-
-    - Researched and developed model compression and model predictive control methods for non-linear dynamical systems.
-    - Secured 1st place in the model compression track of the AI Grand Challenge 2020, winning a prize of 200 million KRW.
-
-Nov 2018 -<br> Aug 2019
-:   **Medipixel (Seoul) - ML Engineer**
-
-    - Led the guide-wire control automation project for PCI (Percutaneous Coronary Intervention), developing and applying off-policy reinforcement learning and behavior cloning algorithms.
-    - Self-developed Rainbow IQN RL algorithm, achieving SOTA performance and open-sourced. (GitHub: medipixel/rl_algorithm)
-
-SW Developer Experience (From 2013 To 2017)
-----------
-
-Oct 2014 -<br> Jan 2017
-:   **Ericsson (Anyang)**
-
-    - Developed and tested LTE RBS L3 features such as Mobility and Load Balancing.
-    - Improved memory usage by over 20% through enhancements in User Equipment Context in L3.
-    - Recognized as a specialist in L3 test automation at the Korea R&D center and gained experience with world-class CI/CD and collaboration systems.
-
-Nov 2013 -<br> May 2014
-:   **Smilegate (Seongnam)**
-
-    - Developed distributed load testing tool, enabling rapid incident response for global services.
-
 Education
 ---------
 
 2006 - 2014
-:   **Bachelor's Degree, Computer Science**, Dongguk University (Seoul)
+:   **Bachelor's Degree, Computer Science, Dongguk University** (Seoul)
 
-    - Teaching Assistant, Research Assistant in Visual Simulation Lab, Honors student for years.
-
-OpenSource
---------------------
-
-Active contributor and creator of widely adopted open-source projects in reinforcement learning, model serving, and computer vision.
-
-  - **[rainbow-is-all-you-need](https://github.com/Curt-Park/rainbow-is-all-you-need) ★1.9k+** 
-  Creator; comprehensive RL tutorial, adopted by practitioners and educators globally.
-  - **[pg-is-all-you-need](https://github.com/MrSyee/pg-is-all-you-need) ★900+**
-  Co-creator; accessible guide to Policy Gradient methods, referenced in academic courses.
-  - **[rl_algorithms](https://github.com/medipixel/rl_algorithms) ★500+**
-  Lead developer; implemented self-developed Rainbow IQN, achieving SOTA results and community recognition.
-  - **[segment-anything-with-clip](https://github.com/Curt-Park/segment-anything-with-clip) ★300+**
-  Creator; an advanced resource combining segmentation with CLIP, offering practitioners versatile segmentation tools.
-  - **[model_compression](https://github.com/j-marple-dev/model_compression) ★200+**
-  Contributor; efficient model compression algorithms for embedded systems.
-
-Additional Contributions: PyTorch, Huggingface, BentoML, KServe, GoCV, PyG, and more.
-
-Publications
---------------------
-
-Dec 2021
-:   **Deep Reinforcement Learning for Guidewire Navigation in Coronary Artery Phantom**; [IEEE Access](https://ieeexplore.ieee.org/document/9648308)
-
-    Jihoon Kweon; Kyunghwan Kim; Chaehyuk Lee; Hwi Kwon; Jinwoo Park; Kyoseok Song
-
-    - Proposed and validated a deep reinforcement learning approach for autonomous guidewire navigation in coronary artery models, demonstrating improved precision and safety for medical robotics applications.
-
-Patents
---------------------
-
-Dec 2022
-:   **[1] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFICIAL INTELLIGENCE**; 1024748560000
-
-    Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
-
-    - Invented an AI-driven method to automate and optimize semiconductor design processes, enhancing design efficiency and reducing manual intervention.
-
-Jul 2022
-:   **[2] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFICIAL INTELLIGENCE**; 1024200710000
-
-    Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
-
-    - Developed a novel artificial intelligence solution for automating key stages in semiconductor design, enabling faster and more reliable chip development.
+    - Honors student & Teaching Assistant, Visual Simulation Lab
