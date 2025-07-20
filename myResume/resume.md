@@ -25,7 +25,7 @@ Skills
 - **Test & Monitoring**: Locust, Prometheus, Grafana, Loki, Promtail
 - **Infrastructure & DevOps**: Docker, Kubernetes (k8s), K3S, Helm, ArgoCD, Harbor
 
-ML Engineer Experience
+ML Engineer Experience (From 2018)
 ----------
 
 Aug 2023 -<br> present
@@ -59,7 +59,7 @@ Nov 2018 -<br> Aug 2019
     - Led the guide-wire control automation project for PCI (Percutaneous Coronary Intervention), developing and applying off-policy reinforcement learning and behavior cloning algorithms.
     - Self-developed Rainbow IQN RL algorithm, achieving SOTA performance and open-sourced. (GitHub: medipixel/rl_algorithm)
 
-SW Developer Experience
+SW Developer Experience (From 2013 To 2017)
 ----------
 
 Oct 2014 -<br> Jan 2017
@@ -78,7 +78,7 @@ Education
 ---------
 
 2006 - 2014
-:   **Bachelor's Degree, Computer Science**; Dongguk University (Seoul)
+:   **Bachelor's Degree, Computer Science**, Dongguk University (Seoul)
 
     - Teaching Assistant, Research Assistant in Visual Simulation Lab, Honors student for years.
 
@@ -114,14 +114,14 @@ Patents
 --------------------
 
 Dec 2022
-:   **[1] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024748560000
+:   **[1] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFICIAL INTELLIGENCE**; 1024748560000
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
 
     - Invented an AI-driven method to automate and optimize semiconductor design processes, enhancing design efficiency and reducing manual intervention.
 
 Jul 2022
-:   **[2] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFITIAL INTELLIGENCE**; 1024200710000
+:   **[2] METHOD FOR AUTOMATING SEMICONDUCTOR DESIGN BASED ON ARTIFICIAL INTELLIGENCE**; 1024200710000
 
     Jinwoo Park; Tod Myung; Jiyoon Lim; Kyeongmin Woo
 
