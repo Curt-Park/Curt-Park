@@ -53,15 +53,9 @@ Open Source & Research
   - **[Segment-Anything with CLIP](https://github.com/Curt-Park/segment-anything-with-clip)** (Creator): **300+ stars** - Advanced vision demo toolkit
   - **[RL Algorithms](https://github.com/medipixel/rl_algorithms)** (Lead developer): **500+ stars** - SOTA RL algorithms, open-sourced
   - **[Model Compression](https://github.com/j-marple-dev/model_compression)** (Creator): **200+ stars** - Efficient model optimization
+  - **Active Open Source Contributor**: PyTorch, Huggingface, BentoML, KServe, PyG, GoCV, etc.
   - **Publications**: IEEE Access (2021) – Deep RL in medical robotics ([9648308](https://ieeexplore.ieee.org/document/9648308))
   - **2 patents**: AI-based semiconductor design automation ([1024748560000](https://doi.org/10.8080/1020210159380), [1024200710000](https://doi.org/10.8080/1020210159381))
-
-Additional
---------------------
-
-  - **Active Open Source Contributor**: PyTorch, Huggingface, BentoML, KServe, PyG, GoCV, etc.
-  - **English/Korean Bilingual** — ready for cross-functional, global environments.
-
 
 Core Skills
 ----------
