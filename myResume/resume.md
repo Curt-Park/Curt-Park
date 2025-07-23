@@ -14,6 +14,15 @@ Professional Summary
 
 Experienced Machine Learning Engineer & Technical Lead with a proven record of delivering scalable AI solutions and building high-performing engineering teams. Demonstrated success driving business growth (440% sales increase), leading open-source initiatives (4.5k+ stars), and mentoring engineers through all stages of ML product development. Skilled at turning research into robust, production-ready systems and uniting engineers around ambitious goals in dynamic environments.
 
+Core Skills
+----------
+- **Programming:** Python, Golang, C/C++, Erlang
+- **Generative AI (Image):** Diffusion Models, Personalization, Inversion, Instruction-based Image Editing
+- **Deep Learning:** Model Compression, GNN, Reinforcement Learning
+- **Frameworks & Tools:** PyTorch, Diffusers, ComfyUI, Kohya
+- **Deployment & Infra**: Triton, BentoML, KServe, Kubernetes, Docker, K3S, Helm, ArgoCD, Harbor
+- **Backend & Monitoring**: FastAPI, Echo, Prometheus, Grafana, Loki, Promtail
+
 Machine Learning Engineering Experience
 ----------
 
@@ -28,19 +37,18 @@ Nov 2018 -<br> Jul 2023
 :   **ML Engineer / Tech Lead - Startup Track** at **Medipixel, J.Marple, MakinaRocks, Annotation-AI** (Seoul)
     _(Medipixel: Nov 2018–Aug 2019, J.Marple: Sep 2019–Oct 2020, MakinaRocks: Oct 2020–Jan 2022, Annotation-AI: Jan 2022–Jul 2023)_
 
-    - Led end-to-end AI service delivery in medical robotics, semiconductor, and manufacturing; managed projects from concept to deployment across four high-growth startups.
+    - Led end-to-end AI service delivery in medical robotics, semiconductor, and manufacturing; managed projects from concept to deployment in four high-growth startups from seed to Series B stages.
     - Improved real-time image segmentation throughput by 80% at Annotation-AI (optimized Segment Anything from 1024 to 200 calls on CPU).
     - Led a GNN/RL-based FPGA/ASIC placement optimization project at MakinaRocks, achieving +0.7% WNS improvement compared to industry and human benchmarks (presented at Deview 2021).
     - Secured 1st place and a KRW 200 million award in the AI Grand Challenge 2020 (Model Compression Track) at J.Marple.
     - Developed, open-sourced, and maintained SOTA RL algorithms (e.g., Rainbow IQN) with 500+ GitHub stars at Medipixel.
     - Designed and operated robust ML/AI serving infrastructure in Kubernetes/K3S; implemented GPU scheduling, scalable backend APIs in FastAPI/Golang, and established distributed system management and comprehensive monitoring.
-    - Mentored engineering teams and presented at major tech conferences.
 
 Software Development Experience
 ----------
 
 Nov 2013 -<br> Jan 2017
-:   **Software Developer** at **Ericsson (2014–2017), Smilegate (2013–2014)** (Seoul/Anyang)
+:   **Software Developer** at **Ericsson (Sep 2014–Jan 2017), Smilegate (Nov 2013–May 2014)** (Seoul/Anyang)
 
     - Developed LTE RBS Layer-3 features; specialized in automation and distributed test systems.
     - Improved network performance and scalability; led memory optimization with over 20% usage reduction.
@@ -56,17 +64,6 @@ Open Source & Research
   - **Active Open Source Contributor**: PyTorch, Huggingface, BentoML, KServe, PyG, GoCV, etc.
   - **Publications**: IEEE Access (2021) – Deep RL in medical robotics ([9648308](https://ieeexplore.ieee.org/document/9648308))
   - **2 patents**: AI-based semiconductor design automation ([1024748560000](https://doi.org/10.8080/1020210159380), [1024200710000](https://doi.org/10.8080/1020210159381))
-
-Core Skills
-----------
-- **Programming:** Python, Golang, C/C++, Erlang
-- **Generative AI (Image):** Diffusion Models, Personalization, Inversion, Instruction-based Image Editing
-- **Deep Learning Techniques:** Model Compression (Quantization, Pruning, Knowledge Distillation), GNN, Reinforcement Learning (Rainbow, PPO, SAC)
-- **Deep Learning Frameworks:** PyTorch, Diffusers, ComfyUI, Kohya
-- **Model Deployment**: Triton Inference Server, BentoML, KServe
-- **Backend**: Traefik, Authentik, FastAPI, Echo
-- **Test & Monitoring**: Locust, Prometheus, Grafana, Loki, Promtail
-- **Infrastructure & DevOps**: Docker, Kubernetes (k8s), K3S, Helm, ArgoCD, Harbor
 
 Education
 ---------
