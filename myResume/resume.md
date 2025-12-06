@@ -16,6 +16,7 @@ Experienced Machine Learning Engineer & Technical Lead with a proven record of d
 
 Core Skills
 ----------
+
 - **Programming:** Python, Golang, C/C++, Erlang
 - **Generative AI (Image):** Diffusion Models, Personalization, Inversion, Instruction-based Image Editing
 - **Deep Learning:** Model Compression, GNN, Reinforcement Learning
@@ -29,9 +30,10 @@ Machine Learning Engineering Experience
 Aug 2023 -<br> present
 :   **ML Engineer & Project Lead** at **SNOW Corporation** (Seongnam)
 
+    - Exploring a vision language model-based agentic AI system for automated product development.
+    - Developed and implemented generative AI pipelines for image editing, boosting output quality and decreasing inference latency by 90%.
     - Led the launch of “ID Photo” with advanced text-to-image personalization, achieving 440% purchase growth.
     - Architected and deployed a Kubernetes-based GPU cluster that accelerated ML development and deployment for cross-functional teams.
-    - Developed and deployed generative AI pipelines for personalization and image editing, reducing inference latency by 85%.
 
 Nov 2018 -<br> Jul 2023
 :   **ML Engineer / Tech Lead - Startup Track** at **Medipixel, J.Marple, MakinaRocks, Annotation-AI** (Seoul)
@@ -56,14 +58,14 @@ Nov 2013 -<br> Jan 2017
 Open Source & Research
 --------------------
 
-  - **[Rainbow RL Tutorial](https://github.com/Curt-Park/rainbow-is-all-you-need)** (Creator): **1.9k+ stars** - Hands-on RL education resource
-  - **[PG RL Tutorial](https://github.com/MrSyee/pg-is-all-you-need)** (Co-creator): **900+ stars** - Policy Gradient methods for practitioners
-  - **[Segment-Anything with CLIP](https://github.com/Curt-Park/segment-anything-with-clip)** (Creator): **300+ stars** - Advanced vision demo toolkit
-  - **[RL Algorithms](https://github.com/medipixel/rl_algorithms)** (Lead developer): **500+ stars** - SOTA RL algorithms, open-sourced
-  - **[Model Compression](https://github.com/j-marple-dev/model_compression)** (Creator): **200+ stars** - Efficient model optimization
-  - **Active Open Source Contributor**: PyTorch, Huggingface, BentoML, KServe, PyG, GoCV, etc.
-  - **Publications**: IEEE Access (2021) – Deep RL in medical robotics ([9648308](https://ieeexplore.ieee.org/document/9648308))
-  - **2 patents**: AI-based semiconductor design automation ([1024748560000](https://doi.org/10.8080/1020210159380), [1024200710000](https://doi.org/10.8080/1020210159381))
+- **[Rainbow RL Tutorial](https://github.com/Curt-Park/rainbow-is-all-you-need)** (Creator): **1.9k+ stars** - Hands-on RL education resource
+- **[PG RL Tutorial](https://github.com/MrSyee/pg-is-all-you-need)** (Co-creator): **900+ stars** - Policy Gradient methods for practitioners
+- **[Segment-Anything with CLIP](https://github.com/Curt-Park/segment-anything-with-clip)** (Creator): **300+ stars** - Advanced vision demo toolkit
+- **[RL Algorithms](https://github.com/medipixel/rl_algorithms)** (Lead developer): **500+ stars** - SOTA RL algorithms, open-sourced
+- **[Model Compression](https://github.com/j-marple-dev/model_compression)** (Creator): **200+ stars** - Efficient model optimization
+- **Active Open Source Contributor**: PyTorch, Huggingface, BentoML, KServe, PyG, GoCV, etc.
+- **Publications**: IEEE Access (2021) – Deep RL in medical robotics ([9648308](https://ieeexplore.ieee.org/document/9648308))
+- **2 patents**: AI-based semiconductor design automation ([1024748560000](https://doi.org/10.8080/1020210159380), [1024200710000](https://doi.org/10.8080/1020210159381))
 
 Education
 ---------
@@ -72,3 +74,4 @@ Education
 :   **Bachelor's Degree, Computer Science, Dongguk University** (Seoul)
 
     - Honors student & Teaching Assistant, Visual Simulation Lab
+
