@@ -1,0 +1,260 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\startsectionlevel[title={Jinwoo Park},reference={jinwoo-park}]
+
+\thinrule
+
+\startitemize[packed]
+\item
+  GitHub: \useURL[url1][https://github.com/curt-park/]\from[url1]
+\item
+  LinkedIn:
+  \useURL[url2][https://www.linkedin.com/in/curt-park/]\from[url2]
+\item
+  Email:
+  \goto{www.jwpark.co.kr@gmail.com}[url(mailto:www.jwpark.co.kr@gmail.com)]
+\stopitemize
+
+\thinrule
+
+\startsectionlevel[title={Professional
+Summary},reference={professional-summary}]
+
+Experienced Machine Learning Engineer & Technical Lead with a proven
+record of delivering scalable AI solutions and building high-performing
+engineering teams. Demonstrated success driving business growth
+(440\letterpercent{} sales increase), leading open-source initiatives
+(4.5k+ stars), and mentoring engineers through all stages of ML product
+development. Skilled at turning research into robust, production-ready
+systems and uniting engineers around ambitious goals in dynamic
+environments.
+
+\stopsectionlevel
+
+\startsectionlevel[title={Core Skills},reference={core-skills}]
+
+\startitemize[packed]
+\item
+  {\bf Programming:} Python, Golang, C/C++, Erlang
+\item
+  {\bf Generative AI (Image):} Diffusion Models, Personalization,
+  Inversion, Instruction-based Image Editing
+\item
+  {\bf Deep Learning:} Model Compression, GNN, Reinforcement Learning
+\item
+  {\bf Frameworks & Tools:} PyTorch, Diffusers, ComfyUI, Kohya
+\item
+  {\bf Deployment & Infra}: Triton, BentoML, KServe, Kubernetes, Docker,
+  K3S, Helm, ArgoCD, Harbor
+\item
+  {\bf Backend & Monitoring}: FastAPI, Echo, Prometheus, Grafana, Loki,
+  Promtail
+\stopitemize
+
+\stopsectionlevel
+
+\startsectionlevel[title={Machine Learning Engineering
+Experience},reference={machine-learning-engineering-experience}]
+
+\startdescription{Aug 2023 - present}
+  {\bf ML Engineer & Project Lead} at {\bf SNOW Corporation} (Seongnam)
+
+  \startitemize[packed]
+  \item
+    Exploring a vision language model-based agentic AI system for
+    automated product development.
+  \item
+    Developed and implemented generative AI pipelines for image editing,
+    boosting output quality and decreasing inference latency by
+    90\letterpercent{}.
+  \item
+    Led the launch of \quotation{ID Photo} with advanced text-to-image
+    personalization, achieving 440\letterpercent{} purchase growth.
+  \item
+    Architected and deployed a Kubernetes-based GPU cluster that
+    accelerated ML development and deployment for cross-functional
+    teams.
+  \stopitemize
+\stopdescription
+
+\startdescription{Nov 2018 - Jul 2023}
+  {\bf ML Engineer / Tech Lead - Startup Track} at {\bf Medipixel,
+  J.Marple, MakinaRocks, Annotation-AI} (Seoul) {\em (Medipixel: Nov
+  2018--Aug 2019, J.Marple: Sep 2019--Oct 2020, MakinaRocks: Oct
+  2020--Jan 2022, Annotation-AI: Jan 2022--Jul 2023)}
+
+  \startitemize[packed]
+  \item
+    Led end-to-end AI service delivery in medical robotics,
+    semiconductor, and manufacturing; managed projects from concept to
+    deployment in four high-growth startups from seed to Series B
+    stages.
+  \item
+    Improved real-time image segmentation throughput by
+    80\letterpercent{} at Annotation-AI (optimized Segment Anything from
+    1024 to 200 calls on CPU).
+  \item
+    Led a GNN/RL-based FPGA/ASIC placement optimization project at
+    MakinaRocks, achieving +0.7\letterpercent{} WNS improvement compared
+    to industry and human benchmarks (presented at Deview 2021).
+  \item
+    Secured 1st place and a KRW 200 million award in the AI Grand
+    Challenge 2020 (Model Compression Track) at J.Marple.
+  \item
+    Developed, open-sourced, and maintained SOTA RL algorithms (e.g.,
+    Rainbow IQN) with 500+ GitHub stars at Medipixel.
+  \item
+    Designed and operated robust ML/AI serving infrastructure in
+    Kubernetes/K3S; implemented GPU scheduling, scalable backend APIs in
+    FastAPI/Golang, and established distributed system management and
+    comprehensive monitoring.
+  \stopitemize
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Software Development
+Experience},reference={software-development-experience}]
+
+\startdescription{Nov 2013 - Jan 2017}
+  {\bf Software Developer} at {\bf Ericsson (Sep 2014--Jan 2017),
+  Smilegate (Nov 2013--May 2014)} (Seoul/Anyang)
+
+  \startitemize[packed]
+  \item
+    Developed LTE RBS Layer-3 features; specialized in automation and
+    distributed test systems.
+  \item
+    Improved network performance and scalability; led memory
+    optimization with over 20\letterpercent{} usage reduction.
+  \stopitemize
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Open Source &
+Research},reference={open-source-research}]
+
+\startitemize[packed]
+\item
+  {\bf \goto{Rainbow RL
+  Tutorial}[url(https://github.com/Curt-Park/rainbow-is-all-you-need)]}
+  (Creator): {\bf 1.9k+ stars} - Hands-on RL education resource
+\item
+  {\bf \goto{PG RL
+  Tutorial}[url(https://github.com/MrSyee/pg-is-all-you-need)]}
+  (Co-creator): {\bf 900+ stars} - Policy Gradient methods for
+  practitioners
+\item
+  {\bf \goto{Segment-Anything with
+  CLIP}[url(https://github.com/Curt-Park/segment-anything-with-clip)]}
+  (Creator): {\bf 300+ stars} - Advanced vision demo toolkit
+\item
+  {\bf \goto{RL
+  Algorithms}[url(https://github.com/medipixel/rl_algorithms)]} (Lead
+  developer): {\bf 500+ stars} - SOTA RL algorithms, open-sourced
+\item
+  {\bf \goto{Model
+  Compression}[url(https://github.com/j-marple-dev/model_compression)]}
+  (Creator): {\bf 200+ stars} - Efficient model optimization
+\item
+  {\bf Active Open Source Contributor}: PyTorch, Huggingface, BentoML,
+  KServe, PyG, GoCV, etc.
+\item
+  {\bf Publications}: IEEE Access (2021) -- Deep RL in medical robotics
+  (\goto{9648308}[url(https://ieeexplore.ieee.org/document/9648308)])
+\item
+  {\bf 2 patents}: AI-based semiconductor design automation
+  (\goto{1024748560000}[url(https://doi.org/10.8080/1020210159380)],
+  \goto{1024200710000}[url(https://doi.org/10.8080/1020210159381)])
+\stopitemize
+
+\stopsectionlevel
+
+\startsectionlevel[title={Education},reference={education}]
+
+\startdescription{2006 - 2014}
+  {\bf Bachelor's Degree, Computer Science, Dongguk University} (Seoul)
+
+  \startitemize[packed]
+  \item
+    Honors student & Teaching Assistant, Visual Simulation Lab
+  \stopitemize
+\stopdescription
+
+\stopsectionlevel
+
+\stopsectionlevel
+
+\stoptext
