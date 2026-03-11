@@ -9,7 +9,7 @@ JINWOO PARK
 
 ----
 
-Professional Summary
+Summary
 ----------
 
 Experienced Machine Learning Engineer & Technical Lead with a proven record of delivering scalable AI solutions and building high-performing engineering teams. Demonstrated success driving business growth (440% sales increase), leading open-source initiatives (4.5k+ stars), and mentoring engineers through all stages of ML product development. Skilled at turning research into robust, production-ready systems and uniting engineers around ambitious goals in dynamic environments.
@@ -24,7 +24,7 @@ Core Skills
 - **Deployment & Infra**: Triton, BentoML, KServe, Kubernetes, Docker, K3S, Helm, ArgoCD, Harbor
 - **Backend & Monitoring**: FastAPI, Echo, Prometheus, Grafana, Loki, Promtail
 
-Machine Learning Engineering Experience
+Professional Experience
 ----------
 
 Mar 2026 -<br> present
