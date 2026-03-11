@@ -1,270 +1,353 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>resume</title>
   <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
+    /* Minimal base reset — main styling comes from the included CSS */
+    *, *::before, *::after {
+      box-sizing: border-box;
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex;}
+    div.column{flex: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <style type="text/css">
-  /*
-   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
-   *
-   * CSS for making a resume with pandoc. Inspired by moderncv.
-   *
-   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
-   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
-   */
+  @font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnM.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnM.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnM.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnM.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sourcesans3/v19/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqLlO9C4.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/sourcesans3/v19/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kzm61EN.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sourcesans3/v19/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/sourcesans3/v19/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/sourcesans3/v19/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf) format('truetype');
+  }
 
-  /* Whole document */
+  /* ============================================
+     Resume Stylesheet — Editorial / Refined
+     ============================================ */
+
+  :root {
+      --color-ink: #1d1d1f;
+      --color-heading: #2c3e50;
+      --color-accent: #34697a;
+      --color-accent-light: #4a9ab5;
+      --color-rule: #34697a;
+      --color-muted: #5a6672;
+      --color-light: #8d96a0;
+      --color-divider: #c8cdd3;
+      --color-bg: #ffffff;
+      --font-display: "Cormorant Garamond", "Georgia", serif;
+      --font-body: "Source Sans 3", "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  /* === Page Setup === */
+  @page {
+      size: A4;
+      margin: 12mm 16mm 12mm 16mm;
+  }
+
+  /* === Body === */
   body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 8.6pt;
+      line-height: 1.38;
+      color: var(--color-ink);
+      background: var(--color-bg);
       max-width: 800px;
-      margin: auto;
-      background: #FFFFFF;
-      padding: 10px 10px 10px 10px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      -webkit-font-smoothing: antialiased;
   }
 
-  /* Title of the resume */
+  /* === Name / Title === */
   h1 {
-      font-size: 55px;
-      color: #757575;
-      text-align:center;
-      margin-bottom:15px;
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 38px;
+      color: var(--color-heading);
+      text-align: center;
+      margin: 0 0 4px 0;
+      padding: 0;
+      letter-spacing: 0.04em;
+      line-height: 1.1;
   }
-  /* h1:hover { */
-  /*     background-color: #757575; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
 
-  /* Titles of categories */
+  /* === Section Headings === */
   h2 {
-      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-      color: #397249;
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 13px;
+      color: var(--color-accent);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin: 9px 0 4px 0;
+      padding-bottom: 3px;
+      border-bottom: 1.5px solid var(--color-rule);
+      position: relative;
   }
-  /* There is a bar just before each category */
-  h2:before {
-      content: "";
-      display: inline-block;
-      margin-right:1%;
-      width: 16%;
-      height: 10px;
-      /* This is called "rulecolor" in the ConTeXt stylesheet. */
-      background-color: #9CB770;
-  }
-  /* h2:hover { */
-  /*     background-color: #397249; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
 
-  /* Definitions */
+  /* Remove the old green bar */
+  h2:before {
+      content: none;
+      display: none;
+  }
+
+  /* === Horizontal Rules (contact dividers) === */
+  hr {
+      border: none;
+      height: 0;
+      margin: 2px 0;
+  }
+
+  hr:first-of-type {
+      margin-top: 1px;
+  }
+
+  /* === Contact Info Block === */
+  body > ul:first-of-type,
+  h1 + hr + ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2px 0;
+      text-align: center;
+      font-size: 8.2pt;
+      color: var(--color-muted);
+  }
+
+  body > ul:first-of-type li,
+  h1 + hr + ul li {
+      display: inline;
+  }
+
+  /* Add dot separators between contact items */
+  body > ul:first-of-type li + li::before,
+  h1 + hr + ul li + li::before {
+      content: " \00b7  ";
+      color: var(--color-light);
+      font-weight: 700;
+      margin: 0 2px;
+  }
+
+  body > ul:first-of-type li::marker,
+  h1 + hr + ul li::marker {
+      content: none;
+  }
+
+  /* === Paragraphs === */
+  p {
+      margin: 2px 0 4px 0;
+      line-height: 1.4;
+  }
+
+  /* === Definition Lists (Job Entries) === */
+  dl {
+      margin: 3px 0 4px 0;
+  }
+
   dt {
       float: left;
       clear: left;
-      width: 17%;
-      font-weight: bold;
+      width: 13%;
+      font-size: 7.2pt;
+      font-weight: 600;
+      color: var(--color-muted);
+      line-height: 1.55;
+      padding-right: 8px;
   }
+
   dd {
-      margin-left: 17%;
-      margin-bottom:7px;
-  }
-  p {
-      margin-top:0;
-      margin-bottom:7px;
+      margin-left: 13%;
+      margin-bottom: 6px;
+      padding-left: 10px;
+      border-left: 1.5px solid var(--color-divider);
   }
 
-  /* Blockquotes */
-  blockquote {
-      text-align: center
+  dd > strong:first-child,
+  dd > p:first-child > strong:first-child {
+      font-weight: 700;
+      color: var(--color-heading);
   }
 
-  /* Links */
+  /* === Lists === */
+  ul {
+      margin: 1px 0 2px 0;
+      padding-left: 1.2em;
+  }
+
+  li {
+      margin-bottom: 0.8px;
+      line-height: 1.38;
+  }
+
+  li::marker {
+      color: var(--color-accent-light);
+      font-size: 0.65em;
+  }
+
+  /* === Links === */
   a {
+      color: var(--color-accent);
       text-decoration: none;
-      color: #397249;
+      border-bottom: 0.5px solid transparent;
+      transition: border-color 0.2s;
   }
+
   a:hover, a:active {
-      background-color: #397249;
-      color: #FFFFFF;
-      text-decoration: none;
-      text-shadow: 1px 1px 1px #333;
+      border-bottom-color: var(--color-accent);
+      background: none;
+      color: var(--color-accent);
   }
 
-  /* Horizontal separators */
-  hr {
-      color: #A6A6A6;
+  /* === Emphasis & Strong === */
+  strong {
+      font-weight: 600;
+      color: var(--color-ink);
   }
 
+  em {
+      font-style: italic;
+      color: var(--color-muted);
+      font-size: 0.93em;
+  }
+
+  /* === Blockquotes === */
+  blockquote {
+      text-align: center;
+      border: none;
+      color: var(--color-muted);
+      font-style: italic;
+      padding: 0;
+      margin: 4px 0;
+  }
+
+  /* === Tables === */
   table {
       width: 100%;
+      border-collapse: collapse;
+  }
+
+  /* ============================================
+     Print / PDF Overrides (WeasyPrint)
+     ============================================ */
+  @media print {
+      body {
+          font-size: 8.2pt;
+          line-height: 1.35;
+          max-width: 100%;
+          padding: 0;
+          margin: 0;
+      }
+
+      h1 {
+          font-size: 26pt;
+          margin-top: 0;
+          margin-bottom: 3px;
+      }
+
+      h2 {
+          font-size: 9.5pt;
+          margin-top: 7px;
+          margin-bottom: 3px;
+          padding-bottom: 2px;
+          border-bottom-width: 1.2px;
+      }
+
+      hr {
+          margin: 2px 0;
+      }
+
+      p {
+          margin-bottom: 1.5px;
+      }
+
+      ul {
+          margin-top: 1px;
+          margin-bottom: 1px;
+          padding-left: 1.1em;
+      }
+
+      li {
+          margin-bottom: 0.5px;
+          line-height: 1.32;
+      }
+
+      dt {
+          font-size: 7pt;
+      }
+
+      dd {
+          margin-bottom: 4px;
+          padding-left: 9px;
+      }
+
+      dl {
+          margin-top: 1px;
+          margin-bottom: 1px;
+      }
+
+      h2, h3, h4 {
+          page-break-after: avoid;
+      }
+
+      dt, dd {
+          page-break-inside: avoid;
+      }
   }
   </style>
 </head>
 <body>
-<h1 id="jinwoo-park">Jinwoo Park</h1>
+<h1 id="jinwoo-park">JINWOO PARK</h1>
 <hr />
 <ul>
 <li>GitHub: <a href="https://github.com/curt-park/"
@@ -301,10 +384,26 @@ Prometheus, Grafana, Loki, Promtail</li>
 <h2 id="machine-learning-engineering-experience">Machine Learning
 Engineering Experience</h2>
 <dl>
-<dt>Aug 2023 -<br> present</dt>
+<dt>Mar 2026 -<br> present</dt>
 <dd>
-<p><strong>ML Engineer &amp; Project Lead</strong> at <strong>SNOW
-Corporation</strong> (Seongnam)</p>
+<strong>Backend / ML Tech Lead</strong> at <strong>MagicX</strong> (San
+Francisco / Seoul)
+<ul>
+<li>Building and leading backend systems for “Hero,” an AI-powered daily
+assistant that automates real-world tasks on behalf of users.</li>
+<li>Designing and implementing agentic AI pipelines that translate
+natural-language instructions into executable actions across web and
+mobile platforms.</li>
+<li>Architecting scalable backend infrastructure to support low-latency
+AI inference and reliable action execution at scale.</li>
+<li>Developing the AI Autocomplete engine, enabling context-aware
+predictive input across Hero’s product surface.</li>
+</ul>
+</dd>
+<dt>Aug 2023 -<br> Mar 2026</dt>
+<dd>
+<strong>ML Engineer &amp; Project Lead</strong> at <strong>SNOW
+Corporation</strong> (Seongnam)
 <ul>
 <li>Exploring a vision language model-based agentic AI system for
 automated product development.</li>
@@ -319,11 +418,10 @@ teams.</li>
 </dd>
 <dt>Nov 2018 -<br> Jul 2023</dt>
 <dd>
-<p><strong>ML Engineer / Tech Lead - Startup Track</strong> at
+<strong>ML Engineer / Tech Lead - Startup Track</strong> at
 <strong>Medipixel, J.Marple, MakinaRocks, Annotation-AI</strong> (Seoul)
 <em>(Medipixel: Nov 2018–Aug 2019, J.Marple: Sep 2019–Oct 2020,
-MakinaRocks: Oct 2020–Jan 2022, Annotation-AI: Jan 2022–Jul
-2023)</em></p>
+MakinaRocks: Oct 2020–Jan 2022, Annotation-AI: Jan 2022–Jul 2023)</em>
 <ul>
 <li>Led end-to-end AI service delivery in medical robotics,
 semiconductor, and manufacturing; managed projects from concept to
@@ -345,14 +443,10 @@ FastAPI/Golang, and established distributed system management and
 comprehensive monitoring.</li>
 </ul>
 </dd>
-</dl>
-<h2 id="software-development-experience">Software Development
-Experience</h2>
-<dl>
 <dt>Nov 2013 -<br> Jan 2017</dt>
 <dd>
-<p><strong>Software Developer</strong> at <strong>Ericsson (Sep 2014–Jan
-2017), Smilegate (Nov 2013–May 2014)</strong> (Seoul/Anyang)</p>
+<strong>Software Developer</strong> at <strong>Ericsson (Sep 2014–Jan
+2017), Smilegate (Nov 2013–May 2014)</strong> (Seoul/Anyang)
 <ul>
 <li>Developed LTE RBS Layer-3 features; specialized in automation and
 distributed test systems.</li>
@@ -365,10 +459,10 @@ optimization with over 20% usage reduction.</li>
 <ul>
 <li><strong><a
 href="https://github.com/Curt-Park/rainbow-is-all-you-need"
-target="_blank">Rainbow RL Tutorial</a></strong> (Creator):
-<strong>1.9k+ stars</strong> - Hands-on RL education resource</li>
+target="_blank">Rainbow RL Tutorial</a></strong> (Creator): <strong>2k+
+stars</strong> - Hands-on RL education resource</li>
 <li><strong><a href="https://github.com/MrSyee/pg-is-all-you-need"
-target="_blank">PG RL Tutorial</a></strong> (Co-creator): <strong>900+
+target="_blank">PG RL Tutorial</a></strong> (Co-creator): <strong>1k
 stars</strong> - Policy Gradient methods for practitioners</li>
 <li><strong><a
 href="https://github.com/Curt-Park/segment-anything-with-clip"
@@ -395,8 +489,8 @@ target="_blank">1024200710000</a>)</li>
 <dl>
 <dt>2006 - 2014</dt>
 <dd>
-<p><strong>Bachelor’s Degree, Computer Science, Dongguk
-University</strong> (Seoul)</p>
+<strong>Bachelor’s Degree, Computer Science, Dongguk University</strong>
+(Seoul)
 <ul>
 <li>Honors student &amp; Teaching Assistant, Visual Simulation Lab</li>
 </ul>

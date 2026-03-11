@@ -1,4 +1,4 @@
-Jinwoo Park
+JINWOO PARK
 ============
 
 ----
@@ -27,7 +27,15 @@ Core Skills
 Machine Learning Engineering Experience
 ----------
 
-Aug 2023 -<br> present
+Mar 2026 -<br> present
+:   **Backend / ML Tech Lead** at **MagicX** (San Francisco / Seoul)
+
+    - Building and leading backend systems for "Hero," an AI-powered daily assistant that automates real-world tasks on behalf of users.
+    - Designing and implementing agentic AI pipelines that translate natural-language instructions into executable actions across web and mobile platforms.
+    - Architecting scalable backend infrastructure to support low-latency AI inference and reliable action execution at scale.
+    - Developing the AI Autocomplete engine, enabling context-aware predictive input across Hero's product surface.
+
+Aug 2023 -<br> Mar 2026
 :   **ML Engineer & Project Lead** at **SNOW Corporation** (Seongnam)
 
     - Exploring a vision language model-based agentic AI system for automated product development.
@@ -46,9 +54,6 @@ Nov 2018 -<br> Jul 2023
     - Developed, open-sourced, and maintained SOTA RL algorithms (e.g., Rainbow IQN) with 500+ GitHub stars at Medipixel.
     - Designed and operated robust ML/AI serving infrastructure in Kubernetes/K3S; implemented GPU scheduling, scalable backend APIs in FastAPI/Golang, and established distributed system management and comprehensive monitoring.
 
-Software Development Experience
-----------
-
 Nov 2013 -<br> Jan 2017
 :   **Software Developer** at **Ericsson (Sep 2014–Jan 2017), Smilegate (Nov 2013–May 2014)** (Seoul/Anyang)
 
@@ -58,8 +63,8 @@ Nov 2013 -<br> Jan 2017
 Open Source & Research
 --------------------
 
-- **[Rainbow RL Tutorial](https://github.com/Curt-Park/rainbow-is-all-you-need)** (Creator): **1.9k+ stars** - Hands-on RL education resource
-- **[PG RL Tutorial](https://github.com/MrSyee/pg-is-all-you-need)** (Co-creator): **900+ stars** - Policy Gradient methods for practitioners
+- **[Rainbow RL Tutorial](https://github.com/Curt-Park/rainbow-is-all-you-need)** (Creator): **2k+ stars** - Hands-on RL education resource
+- **[PG RL Tutorial](https://github.com/MrSyee/pg-is-all-you-need)** (Co-creator): **1k stars** - Policy Gradient methods for practitioners
 - **[Segment-Anything with CLIP](https://github.com/Curt-Park/segment-anything-with-clip)** (Creator): **300+ stars** - Advanced vision demo toolkit
 - **[RL Algorithms](https://github.com/medipixel/rl_algorithms)** (Lead developer): **500+ stars** - SOTA RL algorithms, open-sourced
 - **[Model Compression](https://github.com/j-marple-dev/model_compression)** (Creator): **200+ stars** - Efficient model optimization
